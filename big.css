@@ -1,0 +1,191 @@
+/*style for big website */
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: helvetica, arial, sans-serif;
+    background:grey;
+    background-image:url(../images/background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 100%;
+}
+
+header{
+    margin-bottom: 5px;
+    background:beige;
+}
+
+#logo{
+    display: inline;
+}
+
+#wrapper {
+    width:940px;
+    margin:20px auto;
+    padding:30px;
+    background:beige;
+    overflow:hidden;
+}
+
+nav{
+    height:50px;
+    background:#ffb35c;
+    line-height: 50px;
+}
+
+nav ul{
+   list-style-type: none;
+}
+
+nav li{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display:block;
+    color:darkred;
+}
+
+nav a:hover {
+    background:orange;
+    display:block;
+    color:darkred;
+}
+
+main{
+    background:#ccfccd;
+    width:580px;
+    float:left;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding:5px;
+}
+
+aside{
+    background:lightyellow;
+    width:340px;
+    float:right;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding: 8px 5px;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    background:#ffb35c;
+    clear:both;
+    font-size: 0.875em;
+}
+
+footer li{
+    float:left;
+    margin-left:30px;
+    margin-right: 20px;
+    color:darkred;
+}
+
+a{
+    color:firebrick;
+}
+
+footer a {
+    color:darkred;
+}
+footer ul{
+    float:left;
+    list-style-type: none
+}
+
+img.right{
+    float:right;
+    padding-left:5px;
+    margin: 0 5px 15px 15px; 
+}
+
+img.left{
+    float:left;
+    padding-right:5px;
+    margin: 0 15px 15px 5px; 
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 8px;
+    line-height:1em ;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 8px;
+    padding:5px;
+}
+
+h2{
+    font-size: 1.6em;
+    margin-bottom: 8px;
+    padding:5px;
+}
+
+h3{
+    font-size:1.4em;
+    margin-bottom: 8px;
+    padding:8px;
+    text-transform: uppercase;
+    color:#555;
+}
+
+h4{
+    padding:8px;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color:#555;
+   
+}
+
+figure{
+    margin-bottom: 10px;
+}
+
+figcaption{
+    background:black;
+    color:#fff;
+    padding:8px;
+    font-size:.8em;
+    font-style:italic;
+
+}
+p{
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    padding:5px;
+}
+
+dl{
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    padding:8px;
+    color:#666;
+}
+dt{
+    margin-top:5px;
+}
+
+img{
+    display:block;
+    max-width: 100%
+}
+
+/*style for big page*/
+img.center{
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+
